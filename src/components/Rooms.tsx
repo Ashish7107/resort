@@ -9,11 +9,11 @@ const Rooms: React.FC = () => {
   return (
     <>
       <div className="row">
-        <h3 className="Roomsheading">
+        <section className="Roomsheading">
           <u>
-            <b>Our Services</b>
+            <b className="Roomsheading">Our Services</b>
           </u>
-        </h3>
+        </section>
         <div className="col-md-4">
           <div className=" roomcard card image-card ">
             <img src={rooms} className="card-img-top" alt="Card Image" />
@@ -31,7 +31,7 @@ const Rooms: React.FC = () => {
         </div>
         <div className="col-md-4">
           <div className="roomcard card image-card ">
-            <img src={rooms} className="card-img-top" alt="Card Image" />
+            <img src={celebration} className="card-img-top" alt="Card Image" />
             <h4>
               <u>
                 <b>Party and Celebration</b>

@@ -7,11 +7,11 @@ const Services = () => {
   return (
     <div className="container services">
       <div className="row">
-        <h3 className="serviceheading">
+        <section className="serviceheading">
           <u>
-            <b>We Provide</b>
+            <b className="Roomsheading">We Provide</b>
           </u>
-        </h3>
+        </section>
 
         <div className="col-lg-3 col-md-6">
           <div className="card">

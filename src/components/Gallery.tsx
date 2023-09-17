@@ -18,11 +18,11 @@ import "../styles/Gallery.css";
 function Gallery() {
   return (
     <div className="container">
-      <h3 className="Roomsheading">
+      <section className="Roomsheading">
         <u>
-          <b>Gallery</b>
+          <b className="Roomsheading">Gallery</b>
         </u>
-      </h3>
+      </section>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
