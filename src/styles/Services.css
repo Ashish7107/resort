@@ -1,0 +1,19 @@
+.services {
+  padding-top: 20px;
+  padding-left: 80px;
+}
+.card {
+  padding: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+.icons {
+  font-size: 48px;
+  color: orange;
+}
+.serviceheading {
+  font-style: italic;
+  color: blueviolet;
+  margin-bottom: 50px;
+}

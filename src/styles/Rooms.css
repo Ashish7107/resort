@@ -1,0 +1,52 @@
+/* ImageCard.css */
+
+.image-card {
+  justify-content: center;
+
+  height: 420px;
+
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+  padding-left: 80px;
+  margin-left: 70px;
+  background-color: black;
+  color: wheat;
+}
+
+.image-card .card-content {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+
+  padding: 10px;
+  transition: bottom 0.3s ease;
+  text-align: center;
+  color: white;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+}
+
+.image-card:hover .card-content {
+  bottom: 0;
+}
+.Roomsheading {
+  font-style: italic;
+  color: blueviolet;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.card img {
+  height: 300px;
+  width: 240px;
+}
+h4 {
+  text-align: center;
+}
+.btn {
+  background-color: rgb(246, 13, 91);
+}
