@@ -3,6 +3,9 @@ body {
   font-family: Helvetica Neue;
   padding: 2px;
 }
+.intro {
+  background-color: rgb(168, 228, 228);
+}
 .heading1 {
   color: blue;
   font-style: italic;

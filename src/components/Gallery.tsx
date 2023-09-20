@@ -17,7 +17,7 @@ import slide_image_7 from "../assets/suite1.jpg";
 import "../styles/Gallery.css";
 function Gallery() {
   return (
-    <div className="container">
+    <div className="container gallery">
       <section className="Roomsheading">
         <u>
           <b className="Roomsheading">Gallery</b>
