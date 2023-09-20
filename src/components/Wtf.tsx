@@ -45,14 +45,14 @@ const Wtf = () => {
           </div>
         </div>
         <div className="carousel-item">
-          <img src={hotel_full} className="d-block w-100" alt="..." />
+          <img src={hotel_full} className="wtfimage d-block w-100 " alt="..." />
           <div className="carousel-caption  d-md-block">
             <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src={lawn} className="d-block w-100" alt="..." />
+          <img src={lawn} className="wtfimage d-block w-100 " alt="..." />
           <div className="carousel-caption  d-md-block">
             <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p>

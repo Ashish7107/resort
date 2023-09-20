@@ -5,6 +5,7 @@ import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Rooms from "./components/Rooms";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 
 import Wtf from "./components/Wtf";
 
@@ -21,7 +22,7 @@ function App() {
         <Services />
 
         <Gallery />
-
+        <Testimonials />
         <footer>
           <Footer />
         </footer>
