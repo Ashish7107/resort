@@ -38,7 +38,7 @@ const Wtf = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={hotel_front} className="d-block w-100" alt="..." />
+          <img src={hotel_front} className="wtfimage d-block w-100" alt="..." />
           <div className="carousel-caption d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
